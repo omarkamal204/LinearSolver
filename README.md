@@ -1,13 +1,11 @@
-# LinearSolver
-A Python GUI for solving linear equations using Gaussian Elimination. Displays step-by-step solutions with an interactive Tkinter interface.
-A Python-based tool for solving systems of linear equations using Gaussian Elimination, featuring a Tkinter GUI for user-friendly interaction. This project was developed as part of a Linear Algebra course to demonstrate the step-by-step solution process.
+# **LinearSolver**  
+A Python GUI application for solving systems of linear equations using **Gaussian Elimination**. This project features an intuitive **Tkinter** interface and provides step-by-step visualization of the solution process.  
 
-Features:
-Supports Gaussian Elimination with step-by-step output.
-Interactive Tkinter GUI for easy input and visualization.
-Handles cases with unique solutions, infinite solutions, or no solution.
-Displays the augmented matrix transformation at each step.
-Usage:
-Enter the number of rows (equations) and columns (variables).
-Input the coefficients matrix along with the constants.
-Click "Solve" to get the solution with all intermediate steps.
+## **Features**  
+- **Step-by-step Gaussian Elimination**: View each transformation of the augmented matrix.  
+- **Interactive Tkinter GUI**: User-friendly interface for inputting equations and constants.  
+- Handles cases with:  
+  - **Unique solutions**.  
+  - **Infinite solutions**.  
+  - **No solution**.  
+- Displays the augmented matrix transformation at every step.  
