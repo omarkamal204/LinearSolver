@@ -1,4 +1,3 @@
-```
 # **LinearSolver**  
 A Python GUI application for solving systems of linear equations using **Gaussian Elimination**. This project features an intuitive **Tkinter** interface and provides step-by-step visualization of the solution process.  
 
@@ -19,15 +18,11 @@ A Python GUI application for solving systems of linear equations using **Gaussia
   - Each row corresponds to one equation.  
   - Separate the coefficients of variables with spaces, and include the constant at the end of the row.  
 - **Example Input**:  
-  ```
-  2 1 -1 8
-  -3 -1 2 -11
-  ```
-  This represents the system of equations:  
-  ```
-  2x + y - z = 8  
-  -3x - y + 2z = -11  
-  ```
+2 1 -1 8 -3 -1 2 -11
+This represents the system of equations:  
+2x + y - z = 8
+-3x - y + 2z = -1
+
 
 ### **2. Process**  
 - The program applies **Gaussian Elimination** to solve the system of equations.  
@@ -35,11 +30,11 @@ A Python GUI application for solving systems of linear equations using **Gaussia
 
 ### **3. Output**  
 - The program displays:  
-  1. **Step-by-step transformations** of the augmented matrix.  
-  2. The final matrix in **row echelon form**.  
-  3. The solution to the system, if it exists, in the format:  
-     ```
-     x1 = value1, x2 = value2, ..., xn = valueN
-     ```
+1. **Step-by-step transformations** of the augmented matrix.  
+2. The final matrix in **row echelon form**.  
+3. The solution to the system, if it exists, in the format:  
+   ```
+   x1 = value1, x2 = value2, ..., xn = valueN
+   ```
 - If there are **infinite solutions** or **no solution**, the program explicitly states it.
-```
+
