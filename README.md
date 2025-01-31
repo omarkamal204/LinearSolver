@@ -19,8 +19,8 @@ A Python GUI application for solving systems of linear equations using **Gaussia
   - Separate the coefficients of variables with spaces, and include the constant at the end of the row.  
 - **Example Input**:  
 2 1 -1 8 -3 -1 2 -11
-This represents the system of equations:  
-2x + y - z = 8
+- **This represents the system of equations**:   
+2x + y - z = 8  
 -3x - y + 2z = -1
 
 
