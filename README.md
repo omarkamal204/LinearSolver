@@ -17,12 +17,15 @@ A Python GUI application for solving systems of linear equations using **Gaussia
 - Provide the coefficients and constants for the equations in a single text box:  
   - Each row corresponds to one equation.  
   - Separate the coefficients of variables with spaces, and include the constant at the end of the row.  
-- **Example Input**:  
+- **Example Input**:
+```
 2 1 -1 8 -3 -1 2 -11
-- **This represents the system of equations**:   
+```
+- **This represents the system of equations**:
+```
 2x + y - z = 8  
 -3x - y + 2z = -1
-
+```
 
 ### **2. Process**  
 - The program applies **Gaussian Elimination** to solve the system of equations.  
